@@ -55,7 +55,7 @@ def index():
         conn.commit()
         
     cur.execute("SELECT isim FROM ziyaretciler ORDER BY id DESC LIMIT 10")
-    isimler = [row[0]] for row in cur.fetchall()]
+    isimler = [row[0] for row in cur.fetchall()]
 
     cur.close()
     conn.close()

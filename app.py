@@ -15,7 +15,7 @@ HTML = """
       body {font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #eef2f3; }
       h1 { color: #333; }
       form { margin: 20px auto; }
-      input { padding: 10px; font-size: 16px; }
+      input { padding: 10px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc; }
       button { padding: 10px 15px; backgroup: #4CAF50; color: white; border: none; border-radius: 6px; cursor: pointer; }
       ul {list-style: none; padding: 0; }
       li {background: white; margin: 5px auto; width: 200px; padding: 8ppx; border-radius: 5px; }

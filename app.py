@@ -12,7 +12,7 @@ HTML = """
 <head>
   <title>Buluttan Selam!</title>
   <style>
-      body {font-family: Arial; text-align: center; padding: 50px; background: #eef2f3; }
+      body {font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #eef2f3; }
       h1 { color: #333; }
       form { margin: 20px auto; }
       input { padding: 10px; font-size: 16px; }

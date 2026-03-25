@@ -2,7 +2,7 @@ from flask import Flask, render_template_string, request
 import os
 import psycopg2
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Veritabanı bağlantı adresi (Çevre değişkeninden al)
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://azranaz:aJx966lZ8GdL0bx7KUjIHR8vvnZU2HJj@dpg-d6t8r0450q8c73faippg-a.oregon-postgres.render.com/hello_cloud22_db")

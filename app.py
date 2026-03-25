@@ -62,7 +62,7 @@ def index():
     return
   render_template_string(HTML,isimler=isimler)
 
-  if_name_ =="_main_":
+  if__name__ =="__main__":
     app.run(host="0.0.0.0", port=5000)
 
   
